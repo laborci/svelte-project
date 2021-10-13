@@ -1,0 +1,31 @@
+{
+	"extends": "@tsconfig/svelte/tsconfig.json",
+	"compilerOptions": {
+		"types": [
+			"svelte"
+		],
+		"target": "ESNEXT",
+		"lib": [
+			"ESNEXT",
+			"dom"
+		],
+		"module": "ESNEXT",
+		"moduleResolution": "node",
+		"noImplicitAny": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"strictNullChecks": true,
+		"baseUrl": "./",
+		"experimentalDecorators": true,
+		"paths": {
+			"src/*": [
+				"src/*"
+			]
+		}
+	}
+}
