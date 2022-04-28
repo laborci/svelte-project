@@ -3,11 +3,16 @@
 </script>
 
 <h1>
-	Hello {name}!
+	Hello <b>{name}</b>!
 </h1>
 
 <style lang="scss">
 	h1{
-		color:red;
+		color:lightblue;
+
+		b{
+			color: pink;
+			font-weight: lighter;
+		}
 	}
 </style>
